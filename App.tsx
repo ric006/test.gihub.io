@@ -8,12 +8,13 @@ import Services from './Services';
 import Contact from './Contact';
 
 const App: React.FC = () => {
-    return (
+  return (
     <div>
       <Header />
       <Home />
     </div>
   );
+};
 
   const connectWallet = async () => {
     if ((window as any).ethereum) {
