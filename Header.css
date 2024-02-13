@@ -13,7 +13,7 @@ header h1 {
   letter-spacing: 2px;
 }
 
-button {
+.connect-button {
   background: linear-gradient(135deg, #00b4ff, #05ffa1);
   color: #fff;
   border: none;
@@ -24,6 +24,6 @@ button {
   transition: background 0.3s ease;
 }
 
-button:hover {
+.connect-button:hover {
   background: linear-gradient(135deg, #05ffa1, #00b4ff);
 }
