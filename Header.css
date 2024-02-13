@@ -1,0 +1,29 @@
+/* Header.css */
+header {
+  background: linear-gradient(135deg, #00b4ff, #05ffa1);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button {
+  background: linear-gradient(135deg, #00b4ff, #05ffa1);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #05ffa1, #00b4ff);
+}
