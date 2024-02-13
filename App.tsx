@@ -8,7 +8,12 @@ import Services from './Services';
 import Contact from './Contact';
 
 const App: React.FC = () => {
-  const [walletAddress, setWalletAddress] = useState<string | null>(null);
+    return (
+    <div>
+      <Header />
+      <Home />
+    </div>
+  );
 
   const connectWallet = async () => {
     if ((window as any).ethereum) {
