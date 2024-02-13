@@ -1,0 +1,27 @@
+/* Home.css */
+.computer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #000 50%, #00315a 100%);
+}
+
+.screen {
+  background: linear-gradient(135deg, #00b4ff, #05ffa1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.3);
+  text-align: center;
+}
+
+.screen h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.screen p {
+  color: #fff;
+  font-size: 18px;
+}
