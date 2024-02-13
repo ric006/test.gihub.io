@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <h1>Header</h1>
-      <button onClick={handleConnect}>Connect</button>
+      <button className="connect-button" onClick={handleConnect}>Connect</button>
     </header>
   );
 };
